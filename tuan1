@@ -1,2 +1,5 @@
-Tuấn1
-aaa
+public class InManHinh{
+  public static vold main(String[] args){
+  System.out.println("Hello");
+  }
+}
