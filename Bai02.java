@@ -1,7 +1,5 @@
 import java.util.Scanner;
-public class Bai02{
-     
-
+public class Bai02 {
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
@@ -27,6 +25,4 @@ public class Bai02{
             System.out.println(n+" không là số nguyên tố!");
         }
     }
-    
 }
-

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Bai05 {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
 
         System.out.println("Nhập số phần tử của mảng: ");
