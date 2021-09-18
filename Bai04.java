@@ -14,6 +14,6 @@ public class Bai04 {
             tong+=i;
         }
 
-        System.out.println("Tổng từ 1 tới "+n+" = "+tong);
+        System.out.println("Tổng từ 1 -> "+n+" = "+tong);
     }
 }
