@@ -10,7 +10,7 @@ public class serverTCP {
         
         //Tạo socket server, chờ tại cổng '6543'
         ServerSocket welcomeSocket = new ServerSocket(6543);
-        
+      
         while(true) {
             //chờ yêu cầu từ client
             Socket connectionSocket = welcomeSocket.accept();
