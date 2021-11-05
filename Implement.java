@@ -14,12 +14,9 @@ public class Implement extends UnicastRemoteObject implements Interface {
         
     
 
-    public String dao(String[] s){
-        Stringbuffer bf = new Stringbuffer(s);
-        return bf.reverse().toString();
-    }
+    
         
 
 
-    public //dem{
+    
 }

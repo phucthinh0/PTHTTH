@@ -6,5 +6,5 @@ public interface Interface extends Remote {
 
     public String inhoa(String[] s) throws RemoteException;
 
-    public String dem(String[] s) throws RemoteException;
+    
 }
