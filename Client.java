@@ -19,10 +19,7 @@ public class Client {
                      
             System.out.println (" 1. Dao \n 2. In hoa \n 3. Dem ");    
             
-             while(true){
-               
-
-                             
+                                      
                 String kq = null;
 
                 while(true){
@@ -55,11 +52,13 @@ public class Client {
                     }
                     else{
                         System.out.println("Exit!!");
+                        kq=null;
+                        break;
                     }
 
                 }
 
-            }
+            
 
 
 
