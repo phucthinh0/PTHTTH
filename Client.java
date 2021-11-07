@@ -21,30 +21,29 @@ public class Client {
             
                                       
                 String kq = null;
-
+                
                 while(true){
                     int cv;         
-                    System.out.println("Nhập yêu cầu: ");
+                    System.out.print("Nhập yêu cầu: ");
                     cv = sc.nextInt();
                     
                     if(cv != 0){
                         if(cv >=1 && cv <=3){
                             switch(cv){
-                                case 1:
-                                   
-                                    kq=cItf.dao(s);
-                                    
+                                 case 1:                                 
+                                    kq=cItf.dao(s);   
+                                    System.out.println("Chuỗi xử lý theo yêu cầu ( đảo ):  " + kq);                                 
                                     break;
                                 case 2:
-                                    kq=cItf.inhoa(s);
-                                    
-                                    
+                                    kq=cItf.inhoa(s);  
+                                    System.out.println("Chuỗi xử lý theo yêu cầu (In hoa):  " + kq);                                 
                                     break;
                                 case 3:
-                                    kq=cItf.DemKytu(s);
+                                   
+                                    System.out.println("Số lượng từ là:  " +  cItf.Demtu(s));
                                     break;
                             }
-                            System.out.println("Chuỗi xử lý theo yêu cầu:  " + kq);
+                            
                         }
                         else{
                             System.out.println("Nhap yeu cau 1, 2, 3!!!");

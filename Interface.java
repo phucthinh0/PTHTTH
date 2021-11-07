@@ -8,6 +8,6 @@ public interface Interface extends Remote {
 
     public String dao(String s) throws RemoteException;
 
-    public String DemKytu(String s) throws RemoteException;
+    public int Demtu(String s) throws RemoteException;
     
 }

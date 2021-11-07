@@ -13,7 +13,7 @@ public class Implement extends UnicastRemoteObject implements Interface {
     private char ENTER = '\n';
 
     public String inhoa(String s){
-        return s.touppercase();
+        return s.toUpperCase();
     }
         
     public String dao(String s){
@@ -21,7 +21,7 @@ public class Implement extends UnicastRemoteObject implements Interface {
         return bf.reverse().toString();
     }
 
-    public int DemKytu(String s){
+    public int Demtu(String s){
         if (s == null) {
             return -1;
         }
