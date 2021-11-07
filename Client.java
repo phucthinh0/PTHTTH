@@ -17,12 +17,12 @@ public class Client {
             System.out.println("Nhập chuỗi: ");
             s = sc.nextLine();
                      
-           
+            System.out.println " 1. Dao \n 2. In hoa \n 3. Dem ");    
             
              while(true){
                
 
-                String yeucau = " 1. Dao \n 2. In hoa \n 3. Dem ";               
+                System.out.println " 1. Dao \n 2. In hoa \n 3. Dem ");               
                 String kq = null;
 
                 while(true){
@@ -35,16 +35,16 @@ public class Client {
                             switch(cv){
                                 case 1:
                                    
-                                    
+                                    kq=cItf.dao(s);
                                     
                                     break;
                                 case 2:
-                                    kq=cItf.inhoa("sssssssssssss");
+                                    kq=cItf.inhoa(s);
                                     
                                     
                                     break;
                                 case 3:
-                                    
+                                    kq=cItf.DemKytu(s);
                                     break;
                             }
                             System.out.println("Chuỗi xử lý theo yêu cầu:  " + kq);
