@@ -17,7 +17,7 @@ public class Client {
             System.out.println("Nhập chuỗi: ");
             s = sc.nextLine();
                      
-            System.out.println (" 1. Dao \n 2. In hoa \n 3. Dem ");    
+            System.out.println (" 1. Dao \n 2. In hoa \n 3. Dem \n 4.Tinhs toans");  
             
                                       
                 String kq = null;
@@ -28,7 +28,7 @@ public class Client {
                     cv = sc.nextInt();
                     
                     if(cv != 0){
-                        if(cv >=1 && cv <=3){
+                        if(cv >=1 && cv <=4){
                             switch(cv){
                                  case 1:                                 
                                     kq=cItf.dao(s);   
@@ -42,6 +42,11 @@ public class Client {
                                    
                                     System.out.println("Số lượng từ là:  " +  cItf.Demtu(s));
                                     break;
+                                case 4:
+                                    int a;
+                                    System.out.println("Nhập mot so tu nhien: ");
+                                    a = sc.nextInt();
+                                    System.out.println("Giai thua = :  " +  cItf.tinhGiaithua(a));
                             }
                             
                         }

@@ -41,7 +41,15 @@ public class Implement extends UnicastRemoteObject implements Interface {
         return count;
     }
         
-
+    public int tinhGiaithua(int a){
+        if (a > 0) {
+            return a * tinhGiaithua(a- 1);
+        } else {
+            return 1;
+        }
+    }
+    
+    
 
     
 }
