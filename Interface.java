@@ -12,4 +12,7 @@ public interface Interface extends Remote {
 
     public int tinhGiaithua(int a) throws RemoteException;
     
+    public int demKhoangtrang(String s) throws RemoteException;
+
+    public int demSolanxuathien(String s, char k) throws RemoteException;
 }
