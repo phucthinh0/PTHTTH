@@ -9,10 +9,10 @@ public interface Interface extends Remote {
     public String dao(String s) throws RemoteException;
 
     public int Demtu(String s) throws RemoteException;
-
-    public int tinhGiaithua(int a) throws RemoteException;
     
     public int demKhoangtrang(String s) throws RemoteException;
+
+    public String xoaKhoangtrang(String s) throws RemoteException;
 
     public int demSolanxuathien(String s, char k) throws RemoteException;
 }

@@ -41,13 +41,7 @@ public class Implement extends UnicastRemoteObject implements Interface {
         return count;
     }
         
-    public int tinhGiaithua(int a){
-        if (a > 0) {
-            return a * tinhGiaithua(a- 1);
-        } else {
-            return 1;
-        }
-    }
+   
     
     public int demKhoangtrang(String s){
         int spaceCount = 0;
@@ -68,5 +62,7 @@ public class Implement extends UnicastRemoteObject implements Interface {
         return count;
     }
 
-    
+    public String xoaKhoangtrang(String s){
+        return s.replaceAll(" ", "");
+    }
 }
