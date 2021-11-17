@@ -35,7 +35,7 @@ public class Client {
                                     System.out.println("Chuoi xu ly theo yeu cau ( dao ):  " + kq);                                 
                                     break;
                                 case 2:                                    
-                                    System.out.println("Nhập ký tự: ");                                                          
+                                    System.out.print("Nhập ký tự: ");                                                          
                                     char k = sc.next().charAt(0);
                                     System.out.println("Số lần xuất hiện của ký tự:  " +  cItf.demSolanxuathien(s,k));
                                     break;
