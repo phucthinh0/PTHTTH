@@ -17,7 +17,7 @@ public class Client {
             System.out.println("Nhập chuỗi: ");
             s = sc.nextLine();
                      
-            System.out.println (" 1. Dao ky tu\n 2.Dem so lan xuat hien \n 3. Dem tu \n 4.Dem khoang trang \n 5.Xoa khoang trang \n 6. In hoa");  
+            System.out.println (" 1. Dao ky tu\n 2.Dem so lan xuat hien \n 3. Dem tu \n 4.Dem khoang trang \n 5.Xoa khoang trang \n 6. In hoa \n 0. THOAT");  
             
                                       
             String kq = null;
