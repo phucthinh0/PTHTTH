@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch client",
+            "request": "launch",
+            "mainClass": "TCPSocket.client",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "TCPSocket.Server",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPEchoClient",
+            "request": "launch",
+            "mainClass": "DateTime.TCPEchoClient",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPEchoServer",
+            "request": "launch",
+            "mainClass": "DateTime.TCPEchoServer",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPEchoclient",
+            "request": "launch",
+            "mainClass": "TCPSocket.TCPEchoclient",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPEchoserver",
+            "request": "launch",
+            "mainClass": "TCPSocket.TCPEchoserver",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPEchoserver1",
+            "request": "launch",
+            "mainClass": "TCPSocket.TCPEchoserver1",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch clientTCP",
+            "request": "launch",
+            "mainClass": "TCPchat.clientTCP",
+            "projectName": "PTHTTH_d7bbeece"
+        },
+        {
+            "type": "java",
+            "name": "Launch serverTCP",
+            "request": "launch",
+            "mainClass": "TCPchat.serverTCP",
+            "projectName": "PTHTTH_d7bbeece"
+        }
+    ]
+}

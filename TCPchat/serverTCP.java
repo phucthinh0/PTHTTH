@@ -3,7 +3,7 @@ import java.io.*;
 import java.net.Socket;
 import java.net.ServerSocket;
 public class serverTCP {
-    public static void main(String argv[]) throws Exception
+    public static  void main(String argv[]) throws Exception
     {
         String sentence_from_client;
         String sentence_to_client;
